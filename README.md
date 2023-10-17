@@ -21,3 +21,31 @@ This repo contains samples for running [Playwright](https://playwright.dev/docs/
 ## Notes
 * You can view your test results on the [BrowserStack Automate dashboard](https://www.browserstack.com/automate)
 * Understand how many parallel sessions you need by using our [Parallel Test Calculator](https://www.browserstack.com/automate/parallel-calculator?ref=github)
+
+Steps:
+- Clone our sample project from: https://github.com/garyb-bs/vodafone-takeover-day-workshop 
+- You can clone using the terminal or you can download the ZIP file if you prefer.
+- Install the necessary dependencies by running “npm install”
+- Write a simple new test to add a product to the cart on https://vodafone.co.uk . Ensure the product is in stock first.
+- Run the test and ensure it passes on ALL browsers.
+- Add the flags for Accessibility and Observability and set them to true.
+- Add Percy to the project and take a snapshot of the cart page.
+
+Useful Links:
+
+ - Run your first test with Playwright and BrowserStack: https://www.browserstack.com/docs/automate/playwright/getting-started/nodejs 
+ - BrowserStack SDK YML Configurator: https://www.browserstack.com/docs/automate/selenium/sdk-config-generator 
+ - Installing Playwright: 
+https://playwright.dev/docs/intro
+ - Account Profile for Username and Access Key: 
+https://www.browserstack.com/accounts/profile
+ - Using Percy with Playwright:
+https://docs.percy.io/docs/playwright
+ - BrowserStack Accessibility:
+https://accessibility.browserstack.com
+ - BrowserStack Observability:
+https://observability.browserstack.com
+ - BrowserStack Test Management:
+https://test-management.browserstack.com
+-First Percy Build:
+https://docs.percy.io/docs/your-first-percy-build 
